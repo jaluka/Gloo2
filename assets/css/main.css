@@ -19,7 +19,7 @@
 
 body
 {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -1461,21 +1461,35 @@ p > tag
     color: rgba(235, 6, 6, 0.01);
     background-color: #060000;
 }
- .back-to-top 
+
+.back-to-top
 {
-            background: none;
-            margin: 0;
-            position: fixed;
-            bottom: 6px;
-            right: 6px;
-            width: 60px;
-            height: 60px;
-            z-index: 100;
-            display: none;
-            text-decoration: none;
-            color: #ffffff;
-            background-color: #0081B3;
-            }
-            .back-to-top i {
-            font-size: 60px;
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0081B3;
 }
+
+.back-to-top i
+{
+    font-size: 60px;
+}
+
+#gray
+{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.gray
+{
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
